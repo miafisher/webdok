@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    colors: {
+primary: "#f4f4f4", 
+bg: "131313", 
+yellow: "d8fc16",
+green: "8fe30f",
+pink: "fe0194", 
+purple: "552b43",
+    }
+    extend: {
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
