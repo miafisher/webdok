@@ -9,9 +9,12 @@ yellow: "d8fc16",
 green: "8fe30f",
 pink: "fe0194", 
 purple: "552b43",
-    }
-    extend: {
     },
+
+    fontFamily: {
+
+    }
+    extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
