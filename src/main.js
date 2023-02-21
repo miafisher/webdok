@@ -40,3 +40,28 @@ scroller.forEach((container) => {
     }
   );
 });
+
+/* STOCK-FOTOS SLIDE-IN VARIOUS SPEED */
+
+inView(".stockanimation", () => {
+  animate(".stock1", { x: [-2000, 0] }, { duration: 2 });
+  animate(".stock3", { x: [-1000, 0] }, { duration: 2 });
+  animate(".stock4", { x: [-500, 0] }, { duration: 2 });
+  animate(".stock5", { x: [-2000, 0] }, { duration: 2 });
+  animate(".stock6", { x: [2000, 0] }, { duration: 2 });
+  animate(".stock7", { x: [1500, 0] }, { duration: 2 });
+  animate(".stock8", { x: [1000, 0] }, { duration: 2 });
+  animate(".stock9", { x: [500, 0] }, { duration: 2 });
+  animate(".stock10", { x: [2000, 0] }, { duration: 2 });
+  return () => {
+    animate(".stock1", { x: [-2000, 0] }, { duration: 2 });
+    animate(".stock3", { x: [-1000, 0] }, { duration: 2 });
+    animate(".stock4", { x: [-500, 0] }, { duration: 2 });
+    animate(".stock5", { x: [-2000, 0] }, { duration: 2 });
+    animate(".stock6", { x: [2000, 0] }, { duration: 2 });
+    animate(".stock7", { x: [1500, 0] }, { duration: 2 });
+    animate(".stock8", { x: [1000, 0] }, { duration: 2 });
+    animate(".stock9", { x: [500, 0] }, { duration: 2 });
+    animate(".stock10", { x: [2000, 0] }, { duration: 2 });
+  };
+});
