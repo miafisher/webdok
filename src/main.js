@@ -36,7 +36,7 @@ scroller.forEach((container) => {
     },
     {
       target: container,
-      offset: ["start", `${container.clientHeight - video.clientHeight}px start`],
+      // offset: ["start", `${container.clientHeight - video.clientHeight}px start`],
     }
   );
 });
