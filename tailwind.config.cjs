@@ -16,7 +16,16 @@ module.exports = {
       roboto: "'Roboto', sans-serif;",
     },
 
-    extend: {},
+    extend: {
+      screens: {
+        xxs: "374px",
+        xs: "540px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1423px",
+        },
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
