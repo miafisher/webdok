@@ -93,9 +93,7 @@
   }
 }
 
-/* GLOW YELLOW .SVG */
-.glow_yellow_svg {
-  /* text-shadow: (0 0 7px #d8fc16) drop-shadow(0 0 4px #d8fc16) drop-shadow(0 0 4px #d8fc16); */
-
+/* GLOW YELLOW PROG.-BAR */
+.glow_yellow_bar {
   filter: drop-shadow(0 0 2px #d8fc16) drop-shadow(0 0 4px #d8fc16) drop-shadow(0 0 2px #d8fc16);
 }
