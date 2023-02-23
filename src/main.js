@@ -55,7 +55,7 @@ inView(".textinview", () => {
 });
 
 inView(".inviewnotinview", ({ target }) => {
-  animate(target, { rotate: -10 }, { delay: 1, duration: 2 });
+  animate(target, { rotate: -180 }, { delay: 1, duration: 2 });
   return () => {
     animate(target, { rotate: 0 });
   };
