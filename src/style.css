@@ -16,7 +16,7 @@
   height: 100vh;
   width: 100%;
   /* background-size: cover; */
-  background-position: 250% 45%;
+  background-position: -250% 45%;
 }
 
 /* GLOW WHITE */
