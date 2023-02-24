@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .splash_img {
-  background-image: url(img/komprimeret_splash.webp);
+  background-image: url(../img/komprimeret_splash.webp);
   height: 150vh;
   width: 100%;
   background-size: cover;
@@ -12,7 +12,7 @@
 }
 
 .portraet_img {
-  background-image: url(img/pierre_test_5.png);
+  background-image: url(../img/pierre_test_5.png);
   height: 100vh;
   width: 100%;
   /* background-size: cover; */
